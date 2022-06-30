@@ -1,16 +1,5 @@
-import styled from "styled-components";
+import { LogoAtr, StyledLogo } from 'components/Navigation/Logo.style';
 import { Link } from "react-router-dom";
-
-const StyledLogo = styled.img`
-  width: 4rem;
-  height: auto;
-  margin-left: 3rem;
-`;
-
-type LogoAtr = {
-  src: string;
-  alt: string;
-};
 
 const Logo = ({ src, alt }: LogoAtr) => {
   return (
