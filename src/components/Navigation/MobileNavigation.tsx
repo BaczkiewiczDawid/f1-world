@@ -1,5 +1,15 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import LinksWrapper from "components/Navigation/LinksWrapper";
+
+const slide = keyframes`
+  0% {
+    width: 20vw;
+  }
+
+  100% {
+    width: 70vw;
+  }
+`;
 
 const Container = styled.div`
   position: fixed;
@@ -12,6 +22,7 @@ const Container = styled.div`
   -webkit-box-shadow: 2px 10px 32px -1px rgba(42, 42, 42, 1);
   -moz-box-shadow: 2px 10px 32px -1px rgba(42, 42, 42, 1);
   box-shadow: 2px 10px 32px -1px rgba(42, 42, 42, 1);
+  animation: ${slide} .25s linear alternate;
 `;
 
 const MobileNavigation = () => {
