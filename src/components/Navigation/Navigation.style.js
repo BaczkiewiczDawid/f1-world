@@ -10,6 +10,13 @@ export const Navigation = styled.nav`
 `;
 
 
-export const LinksWrapper = styled.div`
-  margin-right: 10rem;
+
+export const HamburgerWrapper = styled.div`
+  margin-right: 2rem;
+  z-index: 9999;
+  position: relative;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 `;
