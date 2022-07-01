@@ -3,7 +3,8 @@ import styled from "styled-components";
 export type PostDetails = {
     src: string;
     category: string;
-    description: string;
+    title: string;
+    id: number,
   };
 
 export const ImageContainer = styled.div`
@@ -45,16 +46,5 @@ export const Article = styled.article`
 
   @media screen and (min-width: 1080px) {
     width: 22vw;
-  }
-`;
-
-export const CategoryTitle = styled.h2`
-  color: ${({ theme }) => theme.colors.red};
-  font-size: 0.7rem;
-  font-weight: 500;
-  margin-top: 1rem;
-
-  @media screen and (min-width: 768px) {
-    margin-top: 0;
   }
 `;
