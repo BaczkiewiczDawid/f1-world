@@ -1,7 +1,17 @@
-const Posts = [
+type PostsType = {
+  id: number,
+  src: string,
+  alt: string,
+  category: string,
+  title: string,
+  content: string,
+}
+
+const Posts: PostsType[] = [
   {
     id: 1001,
     src: "https://images.unsplash.com/photo-1505739776745-f1a6bf1f5246?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    alt: 'Lewis Hamilton in his car',
     category: "NEWS",
     title: `AlphaTauri say Tsunoda has taken ‘a big step forward’ compared to his
         rookie season`,
@@ -16,6 +26,7 @@ const Posts = [
   {
     id: 1002,
     src: "https://images.unsplash.com/photo-1505739776745-f1a6bf1f5246?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    alt: 'Lewis Hamilton in his car',
     category: "NEWS",
     title: `AlphaTauri say Tsunoda has taken ‘a big step forward’ compared to his
         rookie season`,
@@ -30,6 +41,7 @@ const Posts = [
   {
     id: 1003,
     src: "https://images.unsplash.com/photo-1505739776745-f1a6bf1f5246?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    alt: 'Lewis Hamilton in his car',
     category: "NEWS",
     title: `AlphaTauri say Tsunoda has taken ‘a big step forward’ compared to his
         rookie season`,
@@ -44,6 +56,7 @@ const Posts = [
   {
     id: 1004,
     src: "https://images.unsplash.com/photo-1505739776745-f1a6bf1f5246?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    alt: 'Lewis Hamilton in his car',
     category: "NEWS",
     title: `AlphaTauri say Tsunoda has taken ‘a big step forward’ compared to his
         rookie season`,
@@ -58,6 +71,7 @@ const Posts = [
   {
     id: 1005,
     src: "https://images.unsplash.com/photo-1505739776745-f1a6bf1f5246?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    alt: 'Lewis Hamilton in his car',
     category: "NEWS",
     title: `AlphaTauri say Tsunoda has taken ‘a big step forward’ compared to his
         rookie season`,
