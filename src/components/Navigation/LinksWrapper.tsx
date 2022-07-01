@@ -1,5 +1,5 @@
 import SingleLink from "components/Navigation/SingleLink";
-import NavigationLinks from "components/data/NavigationLinks";
+import NavigationLinks from "data/NavigationLinks";
 
 import { isMobile, Wrapper } from "components/Navigation/LinksWrapper.style";
 
