@@ -7,9 +7,11 @@ const PostsList = () => {
     <Section>
       {Posts.map((post) => (
         <Post
+          key={post.id}
+          id={post.id}
           src={post.src}
           category={post.category}
-          description={post.description}
+          title={post.title}
         />
       ))}
     </Section>

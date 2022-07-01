@@ -4,6 +4,7 @@ import Navbar from "components/Navigation/Navbar";
 import GlobalStyle from "assets/styles/globalStyles";
 import { theme } from "assets/styles/theme";
 import Dashboard from "components/Dashboard/Dashboard";
+import Article from 'components/Article/Article';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<Dashboard />} />
+            <Route path="/post/:id" element={<Article />} />
           </Routes>
         </Router>
       </ThemeProvider>

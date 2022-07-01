@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { Link } from 'react-router-dom';
 
 export const Section = styled.section`
   display: flex;
@@ -18,5 +18,13 @@ export const Section = styled.section`
   @media screen and (min-width: 1080px) {
     width: 75vw;
     margin: 0;
+  }
+`;
+
+export const StyledLink = styled(Link)`
+  text-decoration: none;
+
+  p {
+    color: ${({ theme }) => theme.colors.black};
   }
 `;
