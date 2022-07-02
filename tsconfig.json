@@ -17,5 +17,5 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src/**/*", "src/components/Navigation/SingleLink/.tsx"]
+  "include": ["src/**/*", "src/components/Navigation/SingleLink/.tsx", "index.d.ts"]
 }
